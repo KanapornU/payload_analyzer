@@ -47,8 +47,29 @@ payload_analyzer/
 # Requirements
 
 - Python 3.7 or higher
-- No external libraries required
+- This project requires the `requests` library. You can install it using:
+ ```bash
+ pip install requests
+ ```
 
 ---
 
 # Possible Improvements
+
+- Add support for detecting more vulnerability types, such as SQL injection or remote code execution
+- Export results to formats like HTML, PDF, or interactive dashboards
+- Improve scanning speed using multithreading or asynchronous requests
+- Enhance error detection and response classification accuracy
+- Integrate alert notifications via email, Slack, or webhooks
+- Develop a user-friendly interface using a desktop or web-based GUI
+
+
+---
+
+# Use Cases
+
+- Educational use for learning web security testing and payload analysis
+- Practice in CTF competitions or controlled lab environments
+- Automating repetitive tasks in web vulnerability testing
+- Building a prototype for red-team tools or larger security platforms
+- Teaching how to analyze responses and identify common web vulnerabilities
