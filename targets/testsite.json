@@ -1,0 +1,11 @@
+[
+  {
+    "url": "http://localhost:5000/search?q=PAYLOAD",
+    "method": "GET"
+  },
+  {
+    "url": "http://localhost:5000/login",
+    "method": "POST",
+    "body": "username=admin&password=PAYLOAD"
+  }
+]
